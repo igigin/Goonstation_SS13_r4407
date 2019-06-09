@@ -7,7 +7,7 @@
 	src.stat = 2
 	src.canmove = 0
 	if (src.blind)
-		src.blind.layer = 0
+		src.blind.plane = -80
 	src.lying = 1
 
 	var/h = src.hand

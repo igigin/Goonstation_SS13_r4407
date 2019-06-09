@@ -13,7 +13,7 @@
 	src.blind.icon_state = "black"
 	src.blind.name = " "
 	src.blind.screen_loc = "1,1 to 15,15"
-	src.blind.layer = 0
+	src.blind.plane = -80
 	src.client.screen += list( src.blind, src.flash )
 	if(!isturf(src.loc))
 		src.client.eye = src.loc

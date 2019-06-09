@@ -45,15 +45,12 @@
 			stat = 1
 
 		if (!blind)
-
-			if (src.blind.layer!=0)
-				src.blind.layer = 0
+			src.blind.plane = -80
 			src.see_in_dark = 8
 			src.see_invisible = 2
 
 		else
 			src.blind.screen_loc = "1,1 to 15,15"
-			if (src.blind.layer!=18)
-				src.blind.layer = 18
+			src.blind.plane = 0
 			src.see_in_dark = 0
 			src.see_invisible = 0

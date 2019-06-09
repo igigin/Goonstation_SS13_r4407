@@ -86,7 +86,7 @@
 	src.blind.screen_loc = "1,1 to 15,15"
 	src.flash.screen_loc = "1,1 to 15,15"
 
-	src.blind.layer = 0
+	src.blind.plane = -80
 	src.flash.layer = 17
 
 	src.client.screen.len = null
