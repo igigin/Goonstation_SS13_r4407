@@ -249,7 +249,7 @@ DEATH COMMANDO GAS MASK
 	name = A.name
 	icon_state = A.icon_state
 	item_state = A.item_state
-	color = A.color
+	cust_color = A.cust_color
 
 /obj/item/clothing/suit/swat_suit/death_commando
 	name = "Death Commando Suit"
